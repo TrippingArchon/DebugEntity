@@ -1,0 +1,12 @@
+
+
+
+<%- include("partials/header"); -%>
+
+    <form action="/post" method="post" style="border:2px; border-radius: 3px;">
+        <input type="text" placeholder="Enter Title" name="title">
+        <textarea type="text" placeholder="Enter description" name="content"></textarea>
+        <button name="sub" type="submit">Enter</button>
+    </form>
+
+    <%- include("partials/footer"); -%>
